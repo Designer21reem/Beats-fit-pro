@@ -59,7 +59,7 @@ const UpperEar = () => {
           damping: 10,
         }}
         className="absolute left-[7%] w-[510px] mt-2"
-        src="assets/kagi Chart.png"
+        src="assets/kagi-Chart.png"
         alt=""
       />
     </div>
