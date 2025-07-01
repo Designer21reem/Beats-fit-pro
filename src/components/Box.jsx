@@ -53,12 +53,12 @@ const Box = () => {
 
       <img
         className="w-[250px] mt-7 absolute left-0 top-[2500px]"
-        src="/assets/Radial Bar Chart.png"
+        src="assets/Radial Bar Chart.png"
         alt=""
       />
       <img
         className="w-[250px] mt-7 absolute right-0 top-[2700px]"
-        src="/assets/Radial Bar Chart2.png"
+        src="assets/Radial Bar Chart2.png"
         alt=""
       />
 
@@ -110,7 +110,7 @@ const Box = () => {
           ].map((img, index) => (
             <motion.img
               key={index}
-              src={`/assets/${img.src}`}
+              src={`assets/${img.src}`}
               alt=""
               className={img.className}
               initial={img.initial}

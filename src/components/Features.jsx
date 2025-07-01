@@ -7,7 +7,7 @@ import { useInView } from "react-intersection-observer";
 const Features = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const colors = ["#666666", "#FADED2", "#F2D7FA", "#EFF595"];
-  const images = ["/assets/f1.png", "/assets/f2.png", "/assets/f3.png", "/assets/f4.png"];
+  const images = ["assets/f1.png", "assets/f2.png", "assets/f3.png", "assets/f4.png"];
 
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -17,7 +17,7 @@ const Features = () => {
   return (
     <section ref={ref} className="overflow-hidden flex items-center justify-center mt-[600px]">
       {/* left side */}
-      <img className="absolute left-0 w-[635px] h-[508px]" src="/assets/s1.png" alt="" />
+      <img className="absolute left-0 w-[635px] h-[508px]" src="assets/s1.png" alt="" />
 
       {images.map((src, index) => (
         activeIndex === index && (

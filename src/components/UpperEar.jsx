@@ -12,7 +12,7 @@ const UpperEar = () => {
       ref={ref}
       className="overflow-hidden flex flex-col items-center justify-center mt-[300px] mx-15"
     >
-      <img src="/assets/Rectangle.png" alt="" />
+      <img src="assets/Rectangle.png" alt="" />
 
       <motion.img
         initial={{ opacity: 0 }}
@@ -25,7 +25,7 @@ const UpperEar = () => {
           damping: 10,
         }}
         className="z-50 absolute w-[411.71px]"
-        src="/assets/t1.png"
+        src="assets/t1.png"
         alt=""
       />
 
@@ -59,7 +59,7 @@ const UpperEar = () => {
           damping: 10,
         }}
         className="absolute left-[7%] w-[510px] mt-2"
-        src="/assets/kagi Chart.png"
+        src="assets/kagi Chart.png"
         alt=""
       />
     </div>

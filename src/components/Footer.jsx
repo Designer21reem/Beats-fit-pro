@@ -26,7 +26,7 @@ const Footer = () => {
               delay: 0.8,
             }}
             className="w-[118px] h-[195px]"
-            src="/assets/a1.png"
+            src="assets/a1.png"
             alt=""
           />
 
@@ -41,7 +41,7 @@ const Footer = () => {
               delay: 0.8,
             }}
             className="ml-[40%] mt-[-75%] w-[188px] h-[173px]"
-            src="/assets/a2.png"
+            src="assets/a2.png"
             alt=""
           />
 
@@ -54,7 +54,7 @@ const Footer = () => {
               delay: 0.8,
             }}
             className="w-xs mt-[20%]"
-            src="/assets/a3.png"
+            src="assets/a3.png"
             alt=""
           />
         </div>
