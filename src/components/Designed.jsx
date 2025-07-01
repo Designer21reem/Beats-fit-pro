@@ -78,7 +78,7 @@ const Designed = () => {
           <img
             key={index}
             className={`absolute top-1/2 left-1/2 w-full transform -translate-x-1/2 -translate-y-1/2 rotate-[${angle}deg] opacity-${70 - index * 10}`}
-            src="./src/assets/ro1.png"
+            src="/assets/ro1.png"
             alt=""
           />
         ))}
@@ -95,7 +95,7 @@ const Designed = () => {
           delay: 0.8,
         }}
         className="w-[250px] absolute left-[510px] top-[500px]"
-        src="./src/assets/rr.png"
+        src="/assets/rr.png"
         alt=""
       />
 
@@ -110,7 +110,7 @@ const Designed = () => {
           delay: 0.8,
         }}
         className="w-[250px] absolute right-[510px] top-[500px]"
-        src="./src/assets/rl.png"
+        src="/assets/rl.png"
         alt=""
       />
     </div>

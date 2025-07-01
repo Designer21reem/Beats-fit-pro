@@ -10,7 +10,7 @@ const Navbar = () => {
               initial={{opacity:0,x:-100}}
               animate={{opacity:1,x:0}}
               transition={{duration:0.5,delay:0.2,type:"spring",stiffness:100,damping:10}}
-             className="w-8" src="./src/assets/logo.png" alt="logo" />
+             className="w-8" src="/assets/logo.png" alt="logo" />
 
              <div
               

@@ -27,11 +27,11 @@ const Sizes = () => {
 
       <div className="flex flex-row items-center justify-between">
         {[
-          { src: "./src/assets/bb1.png", left: "20%", width: "300px", delay: 1.5, top: "6200px" },
-          { src: "./src/assets/bb2.png", left: "40%", width: "120px", delay: 1.3, top: "6180px" },
-          { src: "./src/assets/bb3.png", left: "50%", width: "140px", delay: 1.1, top: "6170px" },
-          { src: "./src/assets/bb4.png", left: "60%", width: "160px", delay: 0.9, top: "6140px" },
-          { src: "./src/assets/bb5.png", left: "75%", width: "100px", delay: 0.7, top: "6360px" },
+          { src: "/assets/bb1.png", left: "20%", width: "300px", delay: 1.5, top: "6200px" },
+          { src: "/assets/bb2.png", left: "40%", width: "120px", delay: 1.3, top: "6180px" },
+          { src: "/assets/bb3.png", left: "50%", width: "140px", delay: 1.1, top: "6170px" },
+          { src: "/assets/bb4.png", left: "60%", width: "160px", delay: 0.9, top: "6140px" },
+          { src: "/assets/bb5.png", left: "75%", width: "100px", delay: 0.7, top: "6360px" },
         ].map((img, index) => (
           <motion.img
             key={index}
