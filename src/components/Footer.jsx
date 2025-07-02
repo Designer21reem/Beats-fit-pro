@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div
       ref={ref}
-      className=" flex flex-col items-center justify-center bg-black px-20 py-10 text-white mt-[900px]"
+      className=" flex flex-col items-center justify-center bg-black px-20 py-10 text-white mt-[300px]"
     >
       <div className="flex flex-row items-center justify-between space-x-[600px]">
         {/* left */}

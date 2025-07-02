@@ -22,6 +22,7 @@ const Header = () => {
       </motion.h1>
 
       <motion.img
+        
         initial={{ opacity: 0, x: -500, y: -200, rotate: -20 }}
         animate={inView ? { opacity: 1, x: 0, y: 0, rotate: 0 } : {}}
         transition={{ duration: 1.2, type: "spring", stiffness: 80, damping: 18, delay: 0.8 }}

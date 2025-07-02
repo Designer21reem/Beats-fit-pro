@@ -54,10 +54,10 @@ const Features = () => {
             initial={{ opacity: 0, y: -80 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.9, delay: 0.3, type: "spring", stiffness: 100, damping: 10 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-center relative"
           >
             <h1 className="font-[Bruno_Ace_SC] text-[162px]">6</h1>
-            <PiBatteryVerticalFullLight className="text-[65px] absolute top-[50%] left-[28%]" />
+            <PiBatteryVerticalFullLight className="text-[65px]  absolute top-[50%] left-[67%]" />
             <p className="font-[Bruno_Ace_SC] font-bold mt-10 text-center">
               HOURS WITH ACTIVE <br />
               NOISE CANCELLING ON
@@ -76,10 +76,10 @@ const Features = () => {
             initial={{ opacity: 0, y: 80 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.9, delay: 0.5, type: "spring", stiffness: 100, damping: 10 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-center relative"
           >
             <h1 className="font-[Bruno_Ace_SC] text-[162px]">24</h1>
-            <BsLightningCharge className="text-[65px] absolute top-[50%] left-[95%]" />
+            <BsLightningCharge className="text-[65px] absolute top-[50%] left-[90%]" />
             <p className="font-bold mt-10 font-[Bruno_Ace_SC] text-center">
               HOURS WITH <br />
               CHARGING CASE

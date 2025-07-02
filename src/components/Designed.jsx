@@ -75,13 +75,20 @@ const Designed = () => {
         className="relative w-full h-[800px] mt-10 overflow-hidden -rotate-15"
       >
         {[0, 10, -10, 20, -20, 30, -30].map((angle, index) => (
-          <img
-            key={index}
-            className={`absolute top-1/2 left-1/2 w-full transform -translate-x-1/2 -translate-y-1/2 rotate-[${angle}deg] opacity-${70 - index * 10}`}
-            src="assets/ro1.png"
-            alt=""
-          />
-        ))}
+  <img
+    key={index}
+    src="/Beats-fit-pro/assets/ro1.png"
+    alt=""
+    style={{
+      position: "absolute",
+      top: "50%",
+      left: "50%",
+      transform: `translate(-50%, -50%) rotate(${angle}deg)`,
+      width: "100%",
+      opacity: (70 - index * 10) / 100,
+    }}
+  />
+))}
       </motion.div>
 
       <motion.img
